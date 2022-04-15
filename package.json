@@ -1,0 +1,25 @@
+{
+  "name": "jsonresume-theme-simplex",
+  "version": "0.0.1",
+  "description": "JSON Resume Theme based on Standard Resume",
+  "author": "@yujinyuz",
+  "scripts": {
+    "start": "nodemon dev",
+    "html": "node dev/html",
+    "pdf": "node dev/pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yujinyuz/jsonresume-theme-simplex"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.12",
+    "helper-date": "^1.0.1"
+  },
+  "devDependencies": {
+    "btoa": "^1.2.1",
+    "nodemon": "^2.0.4",
+    "puppeteer": "^2.0.0"
+  }
+}

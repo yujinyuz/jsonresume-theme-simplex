@@ -1,0 +1,11 @@
+{{#if startDate}}
+    | {{date startDate "MMMM Y" datejs=false}}
+{{/if}}
+
+{{#if endDate}}
+  - {{date endDate "MMMM Y" datejs=false}}
+{{else}}
+  {{#if startDate}}
+    - Current
+  {{/if}}
+{{/if}}
